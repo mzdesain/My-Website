@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const name = document.getElementById('name').value;
         const birthdate = document.getElementById('birthdate').value;
-        const gender = document.querySelector('input[name="gender"]:checked').value;
+        const gender = document.getElementById('gender').value;
         const message = document.getElementById('message').value;
 
         // Get the current date and time

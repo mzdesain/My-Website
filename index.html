@@ -41,10 +41,12 @@
         </div>
     </section>
 
+    <hr>
+
     <!-- Bagian Profil -->
     <section class="profile" id="profile">
         <div class="image-section">
-            <img src="image\Logo.png" alt="Foto Saya" width="300" height="400" />
+            <img src="image/Logo.png" alt="Foto Saya" width="300" height="400" />
         </div>
         <div class="text-section">
             <h1>Saya <span>Muzanni</span></h1>
@@ -56,6 +58,8 @@
             <a class="download-btn" href="#">Download CV Saya</a>
         </div>
     </section>
+
+    <hr>
 
     <!-- Bagian Portofolio -->
     <section class="portfolio" id="portfolio">
@@ -88,6 +92,8 @@
         </div>
     </section>
 
+    <hr>
+
     <!-- Bagian Form -->
     <section class="message-us" id="contact">
         <form id="message-form">
@@ -100,13 +106,11 @@
 
             <div class="gender-container">
                 <label for="gender">Jenis Kelamin:</label>
-                <div class="gender-options">
-                    <input type="radio" id="male" name="gender" value="Pria">
-                    <label for="male">Pria</label>
-                    <input type="radio" id="female" name="gender" value="Wanita">
-                    <label for="female">Wanita</label>
-                </div>
-            </div>
+                <select id="gender" name="gender">
+                    <option value="Laki-Laki" selected>Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </div>            
 
             <label for="message">Pesan:</label>
             <textarea id="message" name="message" required></textarea><br>

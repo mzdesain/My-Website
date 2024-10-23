@@ -7,7 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #7F00FF, #E100FF);
+    background: white;
     color: #333;
 }
 
@@ -17,8 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
-    background: linear-gradient(90deg, #ff00ff, #7F00FF);
+    padding: 15px 30px;
+    background: #123456;
     color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -51,7 +51,7 @@ header {
 }
 
 .nav-menu ul li a:hover {
-    color: #E100FF;
+    color: #728FCE;
 }
 
 /* Burger Icon (hidden by default) */
@@ -128,7 +128,7 @@ header {
     width: 100%;
     max-width: 1200px;
     height: auto;
-    margin: 20px auto;
+    margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -142,7 +142,31 @@ header {
 .banner img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
     display: block;
+}
+
+/* Bagian Heading */
+.welcome-section {
+    padding: 40px;
+    text-align: left;
+}
+
+.welcome-section h2 {
+    font-size: 2.5em;
+    color: #123456;
+    margin-bottom: 0px;
+}
+
+.welcome-section h2 span {
+    color:  #151B8D;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.welcome-section p {
+    font-size: 1em;
+    color: #0a0a0a;
 }
 
 /* Bagian Profil */
@@ -157,6 +181,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
 }
 
 .text-section {
@@ -168,10 +193,11 @@ header {
 .text-section h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #123456;
 }
 
 .text-section h1 span {
-    color: #7F00FF;
+    color: #151B8D;
 }
 
 .text-section p {
@@ -184,7 +210,7 @@ header {
 .download-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #7F00FF;
+    background-color: #123456;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -192,7 +218,7 @@ header {
 }
 
 .download-btn:hover {
-    background-color: #E100FF;
+    background-color: #151B8D;
 }
 
 .image-section {
@@ -236,7 +262,7 @@ header {
 
 .portfolio h2 {
     font-size: 2.5em;
-    color: #7F00FF;
+    color: #123456;
     margin-bottom: 30px;
 }
 
@@ -270,7 +296,7 @@ header {
 
 .skill-percentage {
     height: 100%;
-    background: linear-gradient(45deg, #7F00FF, #E100FF);
+    background: #123456;
     border-radius: 15px 0 0 15px;
     color: white;
     text-align: right;
@@ -295,9 +321,9 @@ header {
 }
 
 h3 {
-    border-left: 5px solid #7F00FF;
+    border-left: 5px solid #123456;
     padding-left: 15px;
-    color: #7F00FF;
+    color: #123456;
 }
 
 form {
@@ -318,20 +344,18 @@ form label {
 }
 
 .gender-container label {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
-.gender-options {
-    display: flex;
-    align-items: center;
-    gap: 2px;
+.gender-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
-.gender-options input[type="radio"] {
-    margin-right: 5px;
-}
-
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -341,7 +365,7 @@ form input, form textarea {
 
 form button {
     padding: 10px 20px;
-    background-color: #7F00FF;
+    background-color: #123456;
     color: white;
     border: none;
     border-radius: 5px;
@@ -350,14 +374,13 @@ form button {
 }
 
 form button:hover {
-    background-color: #E100FF;
+    background-color: #151B8D;
 }
 
 #form-output {
     width: 45%;
     padding-left: 20px;
-    background-color: #f9f9f9;
-    border-left: 2px solid #333;
+    border-left: 2px solid #123456;
     border-radius: 5px;
 }
 
@@ -375,7 +398,7 @@ form button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(45deg, #7F00FF, #E100FF);
+    background: #123456;
     color: white;
     margin-top: 40px;
 }
