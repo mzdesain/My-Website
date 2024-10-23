@@ -103,12 +103,9 @@ header {
 /* Bagian Heading */
 .welcome-section {
     padding: 40px;
-    background-color: #fff;
     text-align: left;
     max-width: 1200px;
     margin: 40px auto;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .welcome-section h2 {
@@ -172,12 +169,9 @@ header {
 /* Bagian Profil */
 .profile {
     padding: 40px;
-    background-color: #fff;
     text-align: center;
     margin: 40px auto;
     max-width: 1200px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -252,12 +246,9 @@ header {
 /* Bagian Portofolio */
 .portfolio {
     padding: 40px;
-    background-color: #fff;
     text-align: center;
     margin: 40px auto;
     max-width: 1200px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio h2 {
@@ -313,11 +304,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: #fff;
     max-width: 1200px;
     margin: 40px auto;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
