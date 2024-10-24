@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Welcome message with user name
-    let username = prompt("Nama Kamu Siapa?");
+    let username = prompt("Nama Panggilan Anda Siapa?");
     if (username) {
         document.getElementById('username').textContent = username;
     }
